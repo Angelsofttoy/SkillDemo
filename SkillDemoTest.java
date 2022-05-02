@@ -10,7 +10,4 @@ public class SkillDemoTest{
         assertEquals(2, SkillDemo.subtraction(3, 2));
     }
 
-
-
-    
 }
