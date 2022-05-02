@@ -1,13 +1,16 @@
 import static org.junit.Assert.*;
 import org.junit.*;
 
-public class SkillDemoTest {
-    
-    public class MarkdownParseTest {
-        @Test
-        public void addition() {
-            assertEquals(3, 1 + 1);//fail
-        }
+public class SkillDemoTest{
+
+    @Test
+    public void subtractionTest(){
+        SkillDemo.subtraction(3, 2);
+
+        assertEquals(2, SkillDemo.subtraction(3, 2));
     }
+
+
+
     
 }
